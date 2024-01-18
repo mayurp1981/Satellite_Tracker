@@ -12,19 +12,23 @@ Visualizations: Includes sky plot illustrating the paths of satellites passing o
 **Usage:**
 
 Input NORAD TLE files of satellites. [https://celestrak.org/NORAD/elements/gp.php?GROUP=active&FORMAT=tle]
+
 Specify the latitude and longitude of the ground station.
 
 **Output:**
 
 Visibility timing of satellites over the ground station.
+
 Skyplots showcasing the paths of satellites passing over the ground station.
+
 2D plots of the propagated satellite orbits.
 
-**Note:** Skyplot and 2D satellite plots are available in the 'visualizations' directory.
+**Note:** Update the TLE file from the NORAD site mentioned above, though a sample file is given for testing.
 
 **How to Use:**
 
 Clone the repository: git clone (https://github.com/mayurp1981/Satellite_Tracker)
+
 Run the MATLAB script with your TLE data and ground station coordinates.
 
 Feel free to contribute, report issues, or suggest improvements. Happy tracking!
